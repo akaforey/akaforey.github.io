@@ -1,9 +1,115 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Contact me!</title>
-  <meta http-equiv="refresh" content="0; URL=https://www.linkedin.com/in/alex-kaforey" />
+  <title>Alex Kaforey - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="https://www.linkedin.com/in/alex-kaforey">LinkedIn</a>
-</body>
-</html>
+  <header>
+    <h1>Alex Kaforey</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#school">School</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Alex, a software developer from Buffalo, New York. I am a senior at Binghamton University where I expect to graduate soon with a B.S. in Computer Science and a B.A. in Mathematics and Statistics. I have interests in Data Science and Machine Learning, and I especially enjoy working on small projects where I can start from the ground up and maybe learn a new library or package along the way.</p>
+    </section>
+    <section id="school">
+      <h2>School</h2>
+      <h3>Degree</h3>
+      <ul>
+        <li>Degree: Bachelor of Science in Computer Science</li>
+        <li>University: Binghamton University</li>
+        <li>Graduation date: May 2023</li>
+      </ul>
+      <h3>Courses</h3>
+      <ul>
+        <li>Introduction to Machine Learning</li>
+        <li>Introduction to Data Mining</li>
+        <li>Data Structures and Algorithms</li>
+        <!-- <li>...</li> -->
+      </ul>
+      <h3>Degree</h3>
+      <ul>
+        <li>Degree: Bachelor of Arts in Mathematics and Statistics</li>
+        <li>University: Binghamton University</li>
+        <li>Graduation date: May 2023</li>
+      </ul>
+      <h3>Courses</h3>
+      <ul>
+        <li>Advanced Linear Algebra</li>
+        <li>Combinatorics</li>
+        <li>Topology</li>
+        <li>Calculus III</li>
+        <!-- <li>...</li> -->
+      </ul>
+      <!-- <h3>Projects</h3>
+      <ul>
+        <li>Project name: Description of project...</li>
+        <li>Project name: Description of project...</li>
+      </ul> -->
+    </section>
+    <section id="work">
+      <h2>Work</h2>
+      <h3>Internships</h3>
+      <ul>
+        <li>Company name: Description of internship...</li>
+        <li>Company name: Description of internship...</li>
+      </ul>
+      <h3>Part-time Jobs</h3>
+      <ul>
+        <li>Company name: Description of job...</li>
+        <li>Company name: Description of job...</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+        <li>Skill name</li>
+        <li>Skill name</li>
+        <li>Skill name</li>
+      </ul>
+    </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>Paper title: Bluff Detection...</li>
+        <!-- <li>Paper title: Description of paper...</li> -->
+      </ul>
+      <!-- <h3>Presentations</h3>
+      <ul>
+        <li>Presentation title: Description of presentation...</li>
+        <li>Presentation title: Description of presentation...</li>
+      </ul> -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can contact me at the following email address:</p>
+        <p><a href="mailto:akafore1@binghamton.edu">akafore1@binghamton.edu</a></p>
+        <p>You can also find me on LinkedIn:</p>
+        <p><a href="https://www.linkedin.com/in/alex-kaforey">https://www.linkedin.com/in/alex-kaforey</a></p>
+        <h3>Send me a message</h3>
+        <form action="submit-message.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>        
+        <!-- Remember to sanitize/validate the data from this form -->
+        </section>
+        </main>
+        <footer>
+          <p>Copyright 2021 Your Name</p>
+        </footer>
+      </body>
+      </html>
+     
